@@ -20,6 +20,9 @@ p{
     display: flex;
     gap: 30px;
 }
+.hide{
+    display: none;
+}
 .nav a{
     text-decoration: none;
     margin-right: 20px;
@@ -86,4 +89,83 @@ p{
    
 }
 
+/* tour section styles */
+.tour-content{
+    width: 50%;
+}
+#tour-section{
+    margin-top: -320px;
+}
+.tour-img{
+    width: 50%;
+    margin-left: 200px;
+}
+ul li{
+    color: rgb(122, 122, 109);
+    margin: 20px;
+}
+.tour-content p{
+    color: rgb(122, 122, 109);
+    margin-top: 50px;
+}
 
+
+/* Responsive for mobile device */
+
+@media screen and (max-width:600px) {
+    .container{
+        display: flex;
+      
+           
+}
+.name{
+    display: flex;
+    gap: 10px;
+}
+.nav a{
+   display: none;
+}
+.hide{
+    display: inline;
+}
+body{
+    max-width: 576px;
+     max-width: 500px;
+}
+#banner{
+    background-image: url("../Images/banner.png");
+
+    width:576px;
+    height: px;
+    padding-top: 70px;
+}
+
+
+
+.input-area  *{
+    width: 350px;
+ 
+}
+ button{
+    margin-left: 30px;
+      
+}
+
+/* popular tour style */
+.tour-content{
+    width: 100%;
+}
+#tour-section .container{
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+}
+.tour-img{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+
+
+}
