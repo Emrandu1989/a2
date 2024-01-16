@@ -215,7 +215,6 @@ choose-us-container .section-container {
   border-radius: 16px;
   border: 1px solid #ff5400;
   padding: 30px;
-  
 }
 .newsletter-content p {
   color: #5e5e70;
@@ -237,24 +236,57 @@ choose-us-container .section-container {
   background: #ff5400;
   margin-left: 0px;
 }
-.newsletter-img{
-    position: relative;
+.newsletter-img {
+  position: relative;
 }
-.discount{
-width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-border-radius: 16px;
-background: #FF5400;
-text-align: center;
-padding: 5px;
-color: white;
-position: absolute;
-bottom: 120px;
-right: 20px;
+.discount {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  bottom: 120px;
+  right: 20px;
 }
-.discount h1{
-    margin-top: -20px;
+.discount h1 {
+  margin-top: -20px;
+}
+
+.footer {
+  text-align: center;
+  width: 1440px;
+  height: 402px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+
+}
+.footer hr{
+    width: 800px;
+    margin-top: 50px;
+}
+.footer-title {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 30px;
+}
+.footer p {
+  color: #5a5a5d;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.footer .icons i {
+  margin-right: 30px;
+}
+.footer h5{
+    color: #131318;
+    margin-top: 50px;
 }
 /* Responsive for mobile device */
 
