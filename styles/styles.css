@@ -159,6 +159,40 @@ ul li {
   position: relative;
 }
 
+/* unique section styles */
+#unique h1{
+   font-size: 60px;
+   color: #f99765;
+   margin-bottom: 100px;
+}
+.unique-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 50%;
+}
+.left img{
+    width: 300px;
+    height: 300px;
+}
+.right{
+   margin-left: 50px;
+   width: 50%;
+}
+.right h3{
+    font-size: 40px;
+    color: #d86328;
+}
+.right h6{
+    font-size: 20px;
+}
+
 /* choose us section styles */
 choose-us-container .section-container {
   text-align: center;
@@ -387,6 +421,9 @@ choose-us-container .section-container {
     grid-column: 1 / span 1;
   }
 
+
+  
+ 
   /* choose us section styles */
 
   .service-card-top {
@@ -446,4 +483,35 @@ choose-us-container .section-container {
   .footer-title {
     gap: 20px;
   }
+
+  /* unique section styles */
+#unique h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+ .unique-section{
+     flex-direction: column-reverse;
+ }
+ .left{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     gap: 20px;
+     width: 100%;
+     margin-top: 40px;
+ }
+ .left img{
+     width: 100%;
+ }
+ .right{
+    margin-left: 0px;
+    width: 100%;
+ }
+ .right h3{
+     font-size: 30px;
+    
+ }
+ .right h6{
+     font-size: 20px;
+ }
+ 
 }
