@@ -22,6 +22,9 @@ p {
 .hide {
   display: none;
 }
+.nav span a{
+    color: #fe5906;
+}
 .nav a {
   text-decoration: none;
   margin-right: 20px;
@@ -65,12 +68,22 @@ p {
   background-color: rgb(255, 255, 255);
   border: none;
 }
+.bg-area{
+    background-color: rgb(255, 255, 255, 0.3);
+    width: fit-content;
+   border-radius: 10px;
+   position: relative;
+  
+}
 .input-area * {
   width: 150px;
   padding: 12px 0px;
   border-radius: 5px;
   border: none;
   margin-right: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  
 }
 button {
   padding: 12px 18px;
@@ -346,17 +359,23 @@ choose-us-container .section-container {
   #banner {
     background-image: url("../Images/banner.png");
     background-size: auto; 
+    
   }
   .input-area {
     margin-top: 10px;
+    margin-top: 20px;
+  
   }
+  
  
+
   .banner-content{
     margin-top: -50px;
   }
 
   .input-area * {
     width: 350px;
+    margin-top: -0px;
     
   }
   button {
