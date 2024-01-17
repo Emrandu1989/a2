@@ -354,6 +354,14 @@ font-weight: 400;
   border-radius: 20px;
   
 }
+
+/* place section styles */
+.place-container{
+  display: flex;
+}
+.place-content p{
+  color: #f99765;
+}
 /* newsletter section styles */
 
 .newsletter-container {
@@ -590,6 +598,12 @@ font-weight: 400;
     top: 9%;
     left: 2%;
   }
+
+  /* place section styles */
+.place-container{
+  flex-direction: column;
+  gap: 30px;
+}
 
   /* newsletter section styles */
 
