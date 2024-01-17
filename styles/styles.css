@@ -263,6 +263,7 @@ font-weight: 400;
   width: 100%;
   height: 600px;
   margin: 10px auto;
+  border-radius: 20px;
 }
 
 .first-img-content {
@@ -328,6 +329,7 @@ font-weight: 400;
   width: 100%;
   height: 600px;
   margin: 10px auto;
+  border-radius: 20px;
 }
 
 .second-img .first-img-content {
@@ -349,6 +351,8 @@ font-weight: 400;
   width: 100%;
   height: 600px;
   margin: 10px auto;
+  border-radius: 20px;
+  
 }
 /* newsletter section styles */
 
@@ -558,6 +562,33 @@ font-weight: 400;
   .price {
     text-align: left;
     margin-left: 0px;
+  }
+
+  /* deals section styles */
+  .first-img {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 10px auto;
+   border-radius: 20px;
+  }
+  
+  
+  .first-img-content {
+    padding: 50px 70px;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    background: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    height: 320px;
+   
+  }
+
+  .second-img .first-img-content {
+    padding: 50px 50px;
+    top: 9%;
+    left: 2%;
   }
 
   /* newsletter section styles */
